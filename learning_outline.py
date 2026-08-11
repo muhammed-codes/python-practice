@@ -1,0 +1,22 @@
+# ==========================================
+# Python Learning Outline
+# ==========================================
+#
+# Lesson 3
+# --------
+# - Assignment Operators
+# - Arithmetic Operators
+# - Combining assignment and arithmetic operators
+# - Concatenation
+# - Comparison and Boolean Operators
+# - Conditional Statements
+# - Ternary Operators
+#
+# Lesson 4
+# --------
+# - Ways to assign strings to variables
+# - Literal assignments
+# - String index values and slicing
+# - Complex data types (lists, tuples, sets, dictionaries)
+# - Built-in functions for numbers
+# - The math module
