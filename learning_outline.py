@@ -20,3 +20,9 @@
 # - Complex data types (lists, tuples, sets, dictionaries)
 # - Built-in functions for numbers
 # - The math module
+
+# Lesson 5
+# --------
+# - Basic user input
+# - Basic control flow
+# - Introducing Enums
