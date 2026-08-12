@@ -26,3 +26,9 @@
 # - Basic user input
 # - Basic control flow
 # - Introducing Enums
+
+# Lesson 6 - Lists and Tuples
+# --------
+# - Lists and Tuples   
+# - CHecking for membership in lists and tuples
+# - Retreive values from lists and tuples
