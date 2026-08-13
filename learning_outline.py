@@ -40,3 +40,7 @@
 # - Modifying tuples (not possible, but can be converted to list and back to tuple)
 # - Unpacking tuples
 # - Using dot notation to find methods
+
+# Lesson 7 - Sets and Dictionaries
+# --------
+# - Sets and Dictionaries
