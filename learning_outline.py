@@ -43,4 +43,12 @@
 
 # Lesson 7 - Sets and Dictionaries
 # --------
-# - Sets and Dictionaries
+# - Creating a Dictionaries
+# - Accessing items in a dictionary
+# - Removing items from a dictionary
+# - Adding items to a dictionary
+# - Deleting and clearing a dictionary
+# - Nested dictionaries
+# - Creating sets
+# - Adding and removing items from sets
+# - Merging sets
