@@ -32,3 +32,7 @@
 # - Lists and Tuples   
 # - CHecking for membership in lists and tuples
 # - Retreive values from lists and tuples
+# - Adding items to lists 
+# - adding items to specific index
+# - remove, deleting and clearing
+# - Sorting 
