@@ -35,4 +35,8 @@
 # - Adding items to lists 
 # - adding items to specific index
 # - remove, deleting and clearing
-# - Sorting 
+# - Sorting lists
+# - list constructors
+# - Modifying tuples (not possible, but can be converted to list and back to tuple)
+# - Unpacking tuples
+# - Using dot notation to find methods
