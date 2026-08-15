@@ -53,4 +53,11 @@
 # - Adding and removing items from sets
 # - Merging sets
 
-
+#  Lesson 8 Loops and For Loops
+#  ---------------------------
+#  - Basic while loops
+#  - Break statements
+#  - Continue statements
+#  - For loops
+#  - Range start and ends
+#  - Nested Loops
