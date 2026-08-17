@@ -61,3 +61,12 @@
 #  - For loops
 #  - Range start and ends
 #  - Nested Loops
+
+# Lesson 9: Functions
+# -------------------
+# - Basic Functions
+# - Naming Functions
+# - Function arguments
+# - Return keyword
+# - Function scope
+# - Lambda functions
