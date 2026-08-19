@@ -2,6 +2,8 @@ import sys
 import random
 from enum import Enum
 
+game_count = 0
+
 
 def play_rps():
     class RPS(Enum):
@@ -33,11 +35,22 @@ def play_rps():
         print("You win!")
     else:
         print("Computer wins!")
-    playagain = input("Play again? (y/n): ")
-    if playagain.lower() == "y":
-        play_rps()
-    else:
-        print("\nThanks for playing! You rock!")
-        sys.exit("Bye")
+
+    global game_count
+    game_count += 1
+    print(f"You've played {game_count} time(s)")
+
+    def continue_playing ():
+        playagain = input("\nPlay again? (y/n): ")
+        if playagain.lower() == "y":
+            play_rps()
+        elif playagain.lower() == "n":
+            print("\nThanks for playing! You rock!")
+        else:
+            print("\nYou chose wrong option, choose again.")
+            continue_playing()
+            sys.exit("Bye")
+
+    continue_playing()
 
 play_rps()
