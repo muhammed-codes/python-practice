@@ -14,3 +14,8 @@ add_one(0)
 # 
 my_new_total = add_one(0)
 print(my_new_total)
+
+targets = 10
+while targets <= 10:
+    targets += 1
+    print(targets)
