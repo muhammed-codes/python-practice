@@ -12,6 +12,10 @@ def play_rps():
     print("")
     playerChoice = input("Enter... \n1 for Rock \n2 for Paper \n3 for Scissors \n\n")
 
+    if playerChoice not in ["1", "2", "3"]:
+        print("Invalid choice. Please select a number between 1 and 3.")
+        play_rps()
+
     player = int(playerChoice)
     if player < 1 or player > 3:
         print("Invalid choice. Please select a number between 1 and 3.")
@@ -34,6 +38,6 @@ def play_rps():
         play_rps()
     else:
         print("\nThanks for playing! You rock!")
+        sys.exit("Bye")
 
 play_rps()
-# sys.exit("Bye")
