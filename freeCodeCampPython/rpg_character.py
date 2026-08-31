@@ -29,3 +29,33 @@ test = create_character('ren', 4, 2, 1)
 print(test)
 
 
+FULL_DOT = '●'
+EMPTY_DOT = '○'
+MAX_DOTS = 10
+STAT_POOL = 7
+
+def create_character(name, strength, intelligence, charisma):
+    if not isinstance(name, str) or len(name) == 0:
+        return "The character should have a name"
+    if len(name) > 10:
+        return "The character name is too long"
+    if " " in name:
+        return "The character name should not contain spaces"
+
+    stats = {"STR": strength, "INT": intelligence, "CHA": charisma}
+
+    if any(not isinstance(v, int) for v in stats.values()):
+        return "All stats should be integers"
+    if any(v < 1 for v in stats.values()):
+        return "All stats should be no less than 1"
+    if any(v > 4 for v in stats.values()):
+        return "All stats should be no more than 4"
+    if sum(stats.values()) != STAT_POOL:
+        return "The character should start with 7 points"
+
+    lines = [name] + [
+        f"{label} {FULL_DOT * val}{EMPTY_DOT * (MAX_DOTS - val)}"
+        for label, val in stats.items()
+    ]
+    return "\n".join(lines)
+
