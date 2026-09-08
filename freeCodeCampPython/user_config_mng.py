@@ -35,7 +35,7 @@ def view_settings(settings):
     
     result = "Current User Settings:\n"
     for key, value in settings.items():
-        result += f"{key.capitalize()}: '{value}'\n"
+        result += f"{key.capitalize()}: {value}\n"
 
     return result 
 
